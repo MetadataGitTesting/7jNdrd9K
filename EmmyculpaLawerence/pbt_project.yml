@@ -1,0 +1,88 @@
+name: jefferey.bechtelar
+description: migration
+version: 0.0.1
+author: xhbwryhy.fkp8bwt7@foepwlpp.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: jeffereybechtelar
+  parentArtefactID: xhbwryhyfkp8bwt7foepwlppcomteam
+  buildSystem: maven
+  author: null
+  createdAt: '2024-11-22 23:12:51'
+pipelines:
+  pipelines/conflictedPipelineCode:
+    name: conflictedPipelineCode
+    description: null
+    author: xhbwryhy.fkp8bwt7@foepwlpp.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-11-22 23:12:51'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/conflictedPipelineDescription:
+    name: conflictedPipelineDescription
+    description: null
+    author: xhbwryhy.fkp8bwt7@foepwlpp.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-11-22 23:12:52'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/badPipeline:
+    name: badPipeline
+    description: null
+    author: xhbwryhy.fkp8bwt7@foepwlpp.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-11-22 23:12:52'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-11-22 23:12:51'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-11-22T23:12:51.662618Z'
+  name: plibMaven
+  version: 8.6.0-SNAPSHOT
+  id: '1334742208'
+  createdAt: '2024-11-22T23:12:51.662618Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
